@@ -14,5 +14,5 @@ Exercice sur les fonctions asynchrones (fetch() etc) en JS
 
 ---
 ### Final Project Link
-https://lbeauloi.github.io/Asynchrone/
+/
 ---
