@@ -12,8 +12,6 @@ title.textContent = "Asynchrone exercice 1";
 document.body.appendChild(title);
 document.body.appendChild(bouton);
 
-let fetchSuperHeros = fetch("superheros.json");
-
 function createList() {
   fetch("superheros.json")
     .then((response) => response.json())
