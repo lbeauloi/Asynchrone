@@ -21,19 +21,17 @@ function createList() {
       // via "members" on accède aux heros de la squad de heros
       let members = data.members;
 
-      // creation liste ul
-      let newList = document.createElement("ul");
-
       // Pour chaque membres de la hero squad ...
       members.forEach((member) => {
-        //...on créé une ul
+        //...on créé une ul et ...
         let listeHeros = document.createElement("ul");
-        listeHeros.textContent = `hero: ${member.name}`;
+        listeHeros.textContent = `${member.name} Powers :`;
         document.body.appendChild(listeHeros);
-        // ... on parcoure les pouvoirs de chaque hero et créez un élément li pour chaque pouvoir
+
+        // ... on parcoure les pouvoirs de chaque hero et on crée un li pour chaque pouvoir
         member.powers.forEach((power) => {
           let listItem = document.createElement("li");
-          listItem.textContent = `Power: ${power}`;
+          listItem.textContent = `${power}`;
           listeHeros.appendChild(listItem);
         });
       });
