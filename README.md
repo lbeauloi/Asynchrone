@@ -1,6 +1,6 @@
 # Asynchrone
 ## The challenge
-Exercice sur les Timeouts et les Intervals en JS 
+Exercice sur les fonctions asynchrones (fetch() etc) en JS 
 
 ---
 ## The Autor 
